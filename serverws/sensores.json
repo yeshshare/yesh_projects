@@ -1,0 +1,6 @@
+{
+    "name": "sensores",
+    "script": "node app.js",
+    "args": "start"
+  
+ }

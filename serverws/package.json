@@ -1,0 +1,24 @@
+{
+    "name": "ws",
+    "version": "1.0.0",
+    "description": "wsserver",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ruan",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "helmet": "^5.1.0",
+        "ip": "^1.1.8",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "ws": "^7.5.0"
+    }
+}
