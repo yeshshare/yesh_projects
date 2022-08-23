@@ -1,3 +1,8 @@
+<!--
+   Timeline
+   recebe uma lista de Status para geração de uma timeline.
+   possui bot~es que acionam um componente para adicionar novos status.
+-->
 <style>
 .timeline_area {
     position: relative;
@@ -244,7 +249,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-sm-4 col-lg-4 buttons-status">
-                                <div class="button-status warning">
+                                <div class="button-status warning" data-bs-toggle="modal" data-bs-target="#status_modal">
                                     <div class="row button-icon-inside">
                                         <div class="col-1">
                                             <div class="button-icon button-warning">
@@ -258,7 +263,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-sm-4 col-lg-4 buttons-status">
-                                <div class="button-status error">
+                                <div class="button-status error" data-bs-toggle="modal" data-bs-target="#status_modal" >
                                     <div class="row button-icon-inside">
                                         <div class="col-1">
                                             <div class="button-icon button-error">

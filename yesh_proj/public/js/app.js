@@ -19303,6 +19303,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['listStatus'],
   data: function data() {
@@ -38165,22 +38170,36 @@ var staticRenderFns = [
               "div",
               { staticClass: "col-12 col-sm-4 col-lg-4 buttons-status" },
               [
-                _c("div", { staticClass: "button-status warning" }, [
-                  _c("div", { staticClass: "row button-icon-inside" }, [
-                    _c("div", { staticClass: "col-1" }, [
-                      _c("div", { staticClass: "button-icon button-warning" }, [
-                        _c("i", {
-                          staticClass: "fa fa-address-card",
-                          attrs: { "aria-hidden": "true" },
-                        }),
+                _c(
+                  "div",
+                  {
+                    staticClass: "button-status warning",
+                    attrs: {
+                      "data-bs-toggle": "modal",
+                      "data-bs-target": "#status_modal",
+                    },
+                  },
+                  [
+                    _c("div", { staticClass: "row button-icon-inside" }, [
+                      _c("div", { staticClass: "col-1" }, [
+                        _c(
+                          "div",
+                          { staticClass: "button-icon button-warning" },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-address-card",
+                              attrs: { "aria-hidden": "true" },
+                            }),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-10" }, [
+                        _c("h6", [_vm._v("on risc")]),
                       ]),
                     ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-10" }, [
-                      _c("h6", [_vm._v("on risc")]),
-                    ]),
-                  ]),
-                ]),
+                  ]
+                ),
               ]
             ),
             _vm._v(" "),
@@ -38188,22 +38207,32 @@ var staticRenderFns = [
               "div",
               { staticClass: "col-12 col-sm-4 col-lg-4 buttons-status" },
               [
-                _c("div", { staticClass: "button-status error" }, [
-                  _c("div", { staticClass: "row button-icon-inside" }, [
-                    _c("div", { staticClass: "col-1" }, [
-                      _c("div", { staticClass: "button-icon button-error" }, [
-                        _c("i", {
-                          staticClass: "fa fa-address-card",
-                          attrs: { "aria-hidden": "true" },
-                        }),
+                _c(
+                  "div",
+                  {
+                    staticClass: "button-status error",
+                    attrs: {
+                      "data-bs-toggle": "modal",
+                      "data-bs-target": "#status_modal",
+                    },
+                  },
+                  [
+                    _c("div", { staticClass: "row button-icon-inside" }, [
+                      _c("div", { staticClass: "col-1" }, [
+                        _c("div", { staticClass: "button-icon button-error" }, [
+                          _c("i", {
+                            staticClass: "fa fa-address-card",
+                            attrs: { "aria-hidden": "true" },
+                          }),
+                        ]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-10" }, [
+                        _c("h6", [_vm._v("off track")]),
                       ]),
                     ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-10" }, [
-                      _c("h6", [_vm._v("off track")]),
-                    ]),
-                  ]),
-                ]),
+                  ]
+                ),
               ]
             ),
           ]),
